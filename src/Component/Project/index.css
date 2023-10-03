@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600;700&family=Poppins:wght@500&display=swap');
+
+.section{
+  padding: 10px;
+}
+
+.list-project{
+  width: 60%;
+  margin: 2%;
+  background-color: black;
+  cursor: pointer;
+}
+
+
+@media  screen and (min-width:1024px){
+  .list-project{
+    width: 30%;
+  }
+}
+
+
+
+
+.list-project {
+ height: 250px;
+ width: 300px;
+}
+
+.list-project{
+  border: 1px solid black;
+}
+
+.myprojects{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ justify-content: center;
+ 
+}
+
+a{
+  text-decoration: none;
+}
+
+.paragraph{
+  text-align: center;
+ margin: 20px;
+}
+
+.tittel_container{
+  color: black;
+  opacity: 0.5;
+}
+
+.element:hover{
+background-color: grey;
+padding: 30px;
+}

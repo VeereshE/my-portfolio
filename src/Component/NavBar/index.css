@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600;700&family=Poppins:wght@500&display=swap');
+
+.span-elemt{
+    color: orange;
+}
+
+.span-2{
+    color: #808080;
+}
+
+.navbar-brand{
+    font-weight: 1000;
+    font-size: 30px;
+    padding-left: 10px;  
+}
+
+
+
+.navbar-nav{
+    text-align: center;
+    color: #808080;
+    font-size: medium;
+    font-style: initial;
+    font-weight: 900;
+    display: flex;
+    gap: 16px;
+    border-radius: 10px;
+    justify-content: center;  
+    align-items: center;
+    
+}
+
+.navbar-toggler{
+    color: lightyellow;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.form-control{
+    width: 70%;
+}
+
