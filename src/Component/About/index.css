@@ -100,3 +100,8 @@ button:hover{
     
 }
 
+.paragraph{
+    align-self: stretch;
+    text-align: start;
+}
+

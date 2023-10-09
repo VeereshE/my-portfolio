@@ -24,7 +24,7 @@ const About = () => {
         "https://res.cloudinary.com/dgvec2ipx/image/upload/v1696336215/Screenshot_152_hstfqs.png",
       tittle: "Sri Chaitanya PU Collage",
       subtittle: "Completed my Schooling",
-      year: "2003-2016",
+      year: "2013-2016",
     },
     {
       imageUrl:

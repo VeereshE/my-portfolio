@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600;700&family=Poppins:wght@500&display=swap');
 .form-label{
-    font-size: 40%;
+    font-size: 100%;
 }
 
-
+.container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
 
 .footer-section-mail-id{
     font-size: 30%;
+}
+
+.person{
+    width: 50%;
+    height: 60%;
+  align-self: center;
 }
 
 .pic{
@@ -16,4 +26,30 @@
 
 .footer-section{
     background-color: #0d2436;
+}
+
+.formCOntainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 30px;
+    align-items: flex-start;
+    width: 70%;
+}
+
+
+label{
+    margin: 10px;
+}
+
+.btn{
+    margin: 30px;
+    align-self: center;
+}
+.input{
+    width: 70%;
+}
+
+.textAr{
+    width: 70%;
 }

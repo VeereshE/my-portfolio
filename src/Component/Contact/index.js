@@ -21,7 +21,12 @@ const Contact = () => {
       <h2 className="name1">Contact</h2>
       <hr className="line" />
       <div className="container">
-        <form onSubmit={onSubmit}>
+        <img
+          src="https://res.cloudinary.com/dgvec2ipx/image/upload/v1694756071/boy_using_laptop_and_phone_bx874a.png"
+          alt=""
+          className="person"
+        />
+        <form onSubmit={onSubmit} className="formCOntainer">
           <label className="form-label" htmlFor="name">
             Name
           </label>
@@ -37,7 +42,7 @@ const Contact = () => {
           </label>
           <textarea className="form-control" id="message" required />
 
-          <button className="btn btn-danger" type="submit">
+          <button className="btn btn-danger btn" type="submit">
             {formStatus}
           </button>
         </form>
@@ -50,9 +55,6 @@ const Contact = () => {
                 <span className="span-2">Vee</span>
                 <span className="span-elemt">ru</span>
               </a>
-              <h6>
-                Seeking for Opporunity .Please if u hiring Connect with me
-              </h6>
               <h1 class="footer-section-mail-id">veereshediga111@gamil.com</h1>
               <h5>Contact : 6363163774</h5>
               <p class="footer-section-address">
